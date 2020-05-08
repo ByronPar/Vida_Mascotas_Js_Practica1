@@ -1,0 +1,228 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(img/paisaje.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: Roboto;
+}
+
+.contenedor-form {
+    background: rgba(0,0,0,.7);
+    max-width: 1200px;
+    width: 100%;
+    margin: 48px auto;
+    border-radius: 5px;
+    color: #fff;
+    position: relative;
+    /*padding: 40px;*/
+}
+
+.contenedor-form .toggle {
+    position: absolute;
+    top: 7px;
+    right: 7px;
+    width: 100px;
+    height: 30px;
+    font-size: 12px;
+    line-height: 25px;
+    text-align: center;
+    border-top: 2px solid #028b09;
+    border-bottom: 2px solid #028b09;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+
+.contenedor-form .toggle:hover {
+    border-top: 2px solid #0075d9;
+    border-bottom: 2px solid #0075d9;
+}
+
+.contenedor-form .toggle span {
+    letter-spacing: 1px;
+}
+
+.contenedor-form h2 {
+    margin: 0 0 28px 0;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1;
+}
+.contenedor-form input[type="text"],
+.contenedor-form input[type="password"],
+.contenedor-form input[type="email"] {
+    outline: none;
+    display: block;
+    width: 100%;
+    padding: 10px 15px;
+    margin: 0 0 20px 0;
+    background: rgba(0,0,0,.5);
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+    border-bottom: 4px solid #028b09;
+    box-sizing: border-box;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight:normal;
+    transition: all .5s ease;
+}
+
+.contenedor-form select {
+    outline: none;
+    display: block;
+    width: 100%;
+    padding: 10px 15px;
+    margin: 0 0 20px 0;
+    background: rgba(0,0,0,.5);
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+    border-bottom: 4px solid #028b09;
+    box-sizing: border-box;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight:normal;
+    transition: all .5s ease;
+}
+
+.contenedor-form input[type="text"]:focus,
+.contenedor-form input[type="password"]:focus,
+.contenedor-form input[type="email"]:focus {
+    border-bottom: 4px solid #0075d9;
+}
+
+.contenedor-form button[type="button"] {
+    background: #028b09;
+    color: #FFF;
+    width: 100%;
+    border: none;
+    padding: 10px 0;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: Roboto;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+
+.contenedor-form button[type="button"]:hover {
+    background: rgba(0, 117, 217, 0.7);
+}
+
+
+
+.contenedor-form .formulario {
+    display: none;
+    padding: 40px;
+}
+
+ .contenedor-form .formulario:nth-child(2) {
+    display: block;
+ } 
+
+table {
+    background-color: rgba(46, 41, 41, 0.712);
+    text-align:center;
+    border-collapse: collapse;
+    width: 100%;
+    opacity: 1;
+    color: #fff;
+    font-family: 'Lato',Calibri, sans-serif;
+
+  font-size: 1em;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+th,td {
+    border:solid 1px black;
+     padding: 5px;
+
+}
+
+
+
+tr:nth-child(even) {
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+}
+
+
+
+tr:hover td {
+    background-color: #292929d8;
+    color: white;
+
+
+}
+  
+#centrar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#centrar>img {
+  max-width: 30%;
+  border: 0px;
+  justify-content: center;
+  opacity: 12.5;
+}
+
+.pet{
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+  }
+  
+  .bloque{
+    width: 400px;
+  }
+  
+  .boton{
+    padding: 6px 50px;
+    background: #777;
+    color: #f2f2f2;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .boton:hover{
+    background: #222;
+  }
+  
+  .boton:active{
+    background: #777;
+  }
+  
+  .barra{
+    width: 100px;
+    background: #99cc00;
+    margin: 5px 10px;
+    border-radius:4px;
+    padding: 3px 3px;
+  }
+  
+  .lado{
+    float:left;
+    margin: 10px 25px;
+    width: 120px;
+  }
+  
+  #bloqueBoton{
+    padding: 100px 0px;
+  }
+  
+  #bloqueImagen{
+    padding: 0px 0px;
+    position: center;
+    left:100px;
+    top: 110px;
+  }

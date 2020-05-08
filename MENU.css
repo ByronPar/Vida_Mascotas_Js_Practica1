@@ -1,0 +1,82 @@
+body {                                                        /*      ------------------FONDO DE PAGINA INICIAL   ----------*/
+  background-image: url(img/carroceria3.jpg) ; 
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  font-family: normal;
+}
+  
+ 
+  
+
+
+header {
+    margin-top: 10px;
+    width: 100px;
+    height: 150px;
+    overflow: hidden;
+    position: relative;
+}
+
+.info{
+  background: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  max-width: 500px;
+  margin: 48px auto;
+  color: #fff;
+  border-radius: 5px;
+  padding: 60px;
+
+}
+
+.info h2{
+
+  margin: 0 0 28px 0;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 2;
+
+}
+
+.info input[type="text"],
+.info input[type="password"],
+.info input[type="email"]{
+  outline: none;
+  background: rgba(0, 0, 0, 0.5);
+  display: block;
+  width: 100%;
+  padding: 10px 15px;
+  color: #fff;
+  border: none;
+  border-radius: 2px;
+  border-bottom: 4px solid #737772;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: bold;
+  margin: 0 0 20px 0;
+  transition: all .5s ease;
+}
+
+.info input[type="text"]:focus,
+.info input[type="password"]:focus,
+.info input[type="email"]:focus{
+  border-bottom: 4px solid #0075d9;
+}
+
+.info button[type="button"]{
+background: #0075ac;
+color:#fff;
+border: none;
+width: 100%;
+padding: 10px 0;
+font-weight: bold;
+font-family: Roboto;
+letter-spacing: 1px;
+font-size: 16px;
+cursor: pointer;
+}
+
+.info button[type="button"]:hover{
+background: rgba(9, 47, 105, 0.7)
+
+}
+
