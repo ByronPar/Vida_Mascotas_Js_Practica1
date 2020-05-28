@@ -1,77 +1,75 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Juego Principal | IPC2</title>
-    <link rel="stylesheet" href="PRI.css">
-</head>
+    <link rel="stylesheet" href="PRI.css" />
+  </head>
 
-<body>
+  <body>
     <div class="contenedor-form">
-        <div class="toggle">
-            <span> Jugar</span>
-            <br>
-            <br>
-             
-        </div>
+      <div class="toggle">
+        <span> Jugar</span>
+        <br />
+        <br />
+      </div>
 
-        <div class="formulario">
-            <h2>CREAR MASCOTA</h2>
-            <form action="#">
-                <input id="nameMas" type="text" placeholder="Nombre de Mascota" required>
+      <div class="formulario">
+        <h2>CREAR MASCOTA</h2>
+        <form action="#">
+          <input
+            id="nameMas"
+            type="text"
+            placeholder="Nombre de Mascota"
+            required
+          />
 
-                <select id="operaciones">
-                    <option value="perro" id="perro">perro</option>
-                    <option value="gato" id="gato">gato</option>
-                    <option value="loro" id="loro">loro</option>
-                </select>
-                <button type="button" onclick="crear()">Crear Mascota</button>
-                <button><a href="index.html">Cerrar Sesión</a></button>
-            </form>
-        </div>
+          <select id="operaciones">
+            <option value="perro" id="perro">perro</option>
+            <option value="gato" id="gato">gato</option>
+            <option value="loro" id="loro">loro</option>
+          </select>
+          <button type="button" onclick="crear()">Crear Mascota</button>
+          <button><a href="index.html">Cerrar Sesión</a></button>
+        </form>
+      </div>
 
-        <div class="formulario">
-            <h2 id="otro">Jugar</h2>
-            <form action="#">
-                <table width="95%">
-
-
-                    <tr>
-                        <td width="300" height="10"><div id="resultado"></div></td>
-                        <td width="300" height="100"><div id="resultado1"></div></td>
-                        <td width="300" height="100"><div id="resultado2"></div></td>
-                        <td width="300" height="100"><div id="resultado3"></div></td>
-                    </tr>
-                    <tr>
-                        <td width="300" height="100"><div id="resultado4"></div></td>
-                        <td width="300" height="100"><div id="resultado5"></div></td>
-                        <td width="300" height="100"><div id="resultado6"></div></td>
-                        <td width="300" height="100"><div id="resultado7"></div></td>
-                    </tr>
-                    <tr>
-                        <td width="300" height="100"><div id="resultado8"></div></td>
-                        <td width="300" height="100"><div id="resultado9"></div></td>
-                        <td width="300" height="100"><div id="resultado10"></div></td>
-                        <td width="300" height="100"><div id="resultado11"></div></td>
-                    </tr>
-                    <tr>
-                        <td width="300" height="100"><div id="resultado12"></div></td>
-                        <td width="300" height="100"><div id="resultado13"></div></td>
-                        <td width="300" height="100"><div id="resultado14"></div></td>
-                        <td width="300" height="100"><div id="resultado15"></div></td>
-                    </tr>
-                </table>
-
-            </form>
-        </div>
-
+      <div class="formulario">
+        <h2 id="otro">Jugar</h2>
+        <form action="#">
+          <table width="95%">
+            <tr>
+              <td width="300" height="10"><div id="resultado"></div></td>
+              <td width="300" height="100"><div id="resultado1"></div></td>
+              <td width="300" height="100"><div id="resultado2"></div></td>
+              <td width="300" height="100"><div id="resultado3"></div></td>
+            </tr>
+            <tr>
+              <td width="300" height="100"><div id="resultado4"></div></td>
+              <td width="300" height="100"><div id="resultado5"></div></td>
+              <td width="300" height="100"><div id="resultado6"></div></td>
+              <td width="300" height="100"><div id="resultado7"></div></td>
+            </tr>
+            <tr>
+              <td width="300" height="100"><div id="resultado8"></div></td>
+              <td width="300" height="100"><div id="resultado9"></div></td>
+              <td width="300" height="100"><div id="resultado10"></div></td>
+              <td width="300" height="100"><div id="resultado11"></div></td>
+            </tr>
+            <tr>
+              <td width="300" height="100"><div id="resultado12"></div></td>
+              <td width="300" height="100"><div id="resultado13"></div></td>
+              <td width="300" height="100"><div id="resultado14"></div></td>
+              <td width="300" height="100"><div id="resultado15"></div></td>
+            </tr>
+          </table>
+        </form>
+      </div>
     </div>
-    
+
     <script src="js/jquery-3.1.1.min.js"></script>
     <script src="js/juego.js"></script>
     <script src="js/user.js"></script>
-</body>
-
+  </body>
 </html>
